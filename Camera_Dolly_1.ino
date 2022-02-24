@@ -1,4 +1,11 @@
-
+// This code (C++) operates a bi-directional camera dolly that is controlled by two switches and a potentiometer
+//
+// The direction switch changes the direction of the stepper motor
+// The enable switch enables the stepper motor so that it can be moved freely
+// The limit switches stop the stepper motor at the end of the rail
+// & the potentiometer controls the speed of the stepper motor
+//
+// ***RPMs and steps per revolution are given as reference but not used since steps/unit time is sufficient
 
 // Define constants
 const int maxRPM = 50;
